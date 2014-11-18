@@ -1,7 +1,9 @@
 from setuptools import find_packages, setup
 
 
-install_requires = []
+install_requires = [
+  'webob',
+  'requests']
 
 
 setup(name='httpserver',
