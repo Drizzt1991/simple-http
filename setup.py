@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 
-install_requires = ['wsgiref']
+install_requires = []
 
 
 setup(name='httpserver',
@@ -14,6 +14,5 @@ setup(name='httpserver',
       entry_points={
           'console_scripts': [
               'httpserver = httpserver.main:main',
-              'httpserver_tests = httpserver.tests:main',
               ]},
       zip_safe=False)
