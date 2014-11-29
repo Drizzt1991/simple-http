@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS blogs (
+    id INT PRIMARY KEY,
+    text TEXT,
+    title VARCHAR(100),
+    password VARCHAR(10)
+);
+
+INSERT IGNORE INTO blogs(id, text) VALUES (1, "SOME OMG TEXT");
+INSERT IGNORE INTO blogs(id, text) VALUES (2, "SOME OMG TEXT 2");
+INSERT IGNORE INTO blogs(id, text) VALUES (3, "SOME OMG TEXT 3");

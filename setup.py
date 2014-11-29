@@ -3,7 +3,9 @@ from setuptools import find_packages, setup
 
 install_requires = [
   'webob',
-  'requests']
+  'requests',
+  'mysql-connector-python',
+  'SQLAlchemy']
 
 
 setup(name='httpserver',
